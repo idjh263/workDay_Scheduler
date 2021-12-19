@@ -18,21 +18,127 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Work Day Scheduler</title>
   </head>
 
   <body>
-    <header class="jumbotron">
-      <h1 class="display-3">Work Day Scheduler</h1>
-      <p class="lead">A simple calendar app for scheduling your work day</p>
-      <p id="currentDay" class="lead"></p>
-    </header>
+      <header class="jumbotron">
+        <h1 class="display-3">Work Day Scheduler</h1>
+        <p class="lead">A simple calendar app for scheduling your work day</p>
+        <p id="currentDay" class="lead"></p>
+        <div class="currentTime">
+          <div id="currentDate"></div>
+            <div class="clock">
+              <div class="hr"></div>
+              <div class="min"></div>
+              <div class="sec"></div>
+              <div class="pin"></div>
+            </div>
+        
+      </header>
+
+      
+    
+  </div>
+    <!-- 9am -->
     <div class="container">
-      <!-- Timeblocks go here -->
+      <div class="row card-panel teal lighten-3 justify-content-center" id="rowOne">
+        <div class="first col-s2 m2 l2"><p id="time">9 am</p></div>
+        <div class="form-floating">
+        <textarea value="" id="textNine" type="text" cols="100" rows="2" class="form-control"></textarea>
+        </div>
+        <button id="button9am" <a class="waves-effect waves-light btn"><i class="material-icons right">save</i>save</a></button>
+      </div>
+    <!-- 10am -->
+    <div class="row card-panel teal lighten-4 justify-content-center">
+      <div class="first col-s2 m2 l2"><p id="time">10 am</p></div>
+      <div class="form-floating">
+      <textarea value="" id="textTen" type="text" cols="100" rows="2" class="form-control"></textarea>
+      </div>
+      <button id="button10am" <a class="waves-effect waves-light btn"><i class="material-icons right">save</i>save</a></button>
+    </div>
+    <!-- 11am -->
+    <div class="row card-panel teal lighten-3 justify-content-center">
+      <div class="first col-s2 m2 l2"><p id="time">11 am</p></div>
+      <div class="form-floating">
+      <textarea value="" id="textEleven" type="text" cols="100" rows="2" class="form-control"></textarea>
+      </div>
+      <button id="button11am" <a class="waves-effect waves-light btn"><i class="material-icons right">save</i>save</a></button>
+    </div>
+    <!-- 12nn -->
+    <div class="row card-panel teal lighten-4 justify-content-center">
+      <div class="first col-s2 m2 l2"><p id="time">12 nn</p></div>
+      <div class="form-floating">
+      <textarea value="" id="textTwelve" type="text" cols="100" rows="2" class="form-control"></textarea>
+      </div>
+      <button id="button12nn" <a class="waves-effect waves-light btn"><i class="material-icons right">save</i>save</a></button>
+    </div>
+    <!-- 1pm -->
+    <div class="row card-panel teal lighten-3 justify-content-center">
+      <div class="first col-s2 m2 l2"><p id="time">1 pm</p></div>
+      <div class="form-floating">
+      <textarea value="" id="textOne" type="text" cols="100" rows="2" class="form-control"></textarea>
+      </div>
+      <button id="button1pm" <a class="waves-effect waves-light btn"><i class="material-icons right">save</i>save</a></button>
+    </div>
+    <!-- 2pm  -->
+    <div class="row card-panel teal lighten-4 justify-content-center">
+      <div class="first col-s2 m2 l2"><p id="time">2 pm</p></div>
+      <div class="form-floating">
+      <textarea value="" id="textTwo" type="text" cols="100" rows="2" class="form-control"></textarea>
+      </div>
+      <button id="button2pm" <a class="waves-effect waves-light btn"><i class="material-icons right">save</i>save</a></button>
+    </div>
+    <!-- 3pm -->
+    <div class="row card-panel teal lighten-3 justify-content-center">
+      <div class="first col-s2 m2 l2"><p id="time">3 pm</p></div>
+      <div class="form-floating">
+      <textarea value="" id="textThree" type="text" cols="100" rows="2" class="form-control"></textarea>
+      </div>
+      <button id="button3pm" <a class="waves-effect waves-light btn"><i class="material-icons right">save</i>save</a></button>
+    </div>
+    <!-- 4pm -->
+    <div class="row card-panel teal lighten-4 justify-content-center">
+      <div class="first col-s2 m2 l2"><p id="time">4 pm</p></div>
+      <div class="form-floating">
+      <textarea value="" id="textFour" type="text" cols="100" rows="2" class="form-control"></textarea>
+      </div>
+      <button id="button4pm" <a class="waves-effect waves-light btn"><i class="material-icons right">save</i>save</a></button>
+    </div>
+    <!-- 5pm -->
+    <div class="row card-panel teal lighten-3 justify-content-center">
+      <div class="first col-s2 m2 l2"><p id="time">5 pm</p></div>
+      <div class="form-floating">
+      <textarea value="" id="textFive" type="text" cols="100" rows="2" class="form-control"></textarea>
+      </div>
+      <button id="button5pm" <a class="waves-effect waves-light btn"><i class="material-icons right">save</i>save</a></button>
+    </div>
+    <!-- 6pm -->
+    <div class="row card-panel teal lighten-4 justify-content-center">
+      <div class="first col-s2 m2 l2"><p id="time">6 pm</p></div>
+      <div class="form-floating">
+      <textarea value="" id="textSix" type="text" cols="100" rows="2" class="form-control"></textarea>
+      </div>
+      <button id="button6pm" <a class="waves-effect waves-light btn"><i class="material-icons right">save</i>save</a></button>
+    </div>
+      <!-- 7pm -->
+      <div class="row card-panel teal lighten-3 justify-content-center">
+        <div class="first col-s2 m2 l2"><p id="time">7 pm</p></div>
+        <div class="form-floating">
+        <textarea value="" id="textSeven" type="text" cols="100" rows="2" class="form-control"></textarea>
+        </div>
+        <button id="button7pm" <a class="waves-effect waves-light btn"><i class="material-icons right">save</i>save</a></button>
+      </div>
+      <!-- Time blocks go here -->
+    
     </div>
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="assets/js/script.js"></script>
   </body>
 </html>
