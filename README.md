@@ -14,14 +14,13 @@
 ## Description: 
 
     It's workday calendar that you can store reminders and  activities for day. This tool also changes the background color of the textarea if it is past, present or future.
-    ![Textarea](/assets/images/textarea.png) 
+
+    <img src = "images/github-textarea.png" width = "80">
     I also change the body background as it pertains to day, late afternoon and night.  
-    ![Day Time ](/assets/images/day.png) 
-
-    ![Afternoon Time](/assets/images/afternoon.png) 
-
-    ![Night Time](/assets/images/night.png) 
-
+    <img src = "images/github-day.png" width = "80">
+    <img src = "images/github-afternoon.png" width = "80">
+    <img src = "images/github-night.png" width = "80">
+    
 ## Website:
     https://idjh263.github.io/workDay_Scheduler/
 ## Contribution: 
